@@ -16,7 +16,7 @@
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
-Code will be coming.
+**The code will be made public in the next few days.**
 
 ## Share us a :star: if you're interested in this repo
 ## Welcome to our repository! 
