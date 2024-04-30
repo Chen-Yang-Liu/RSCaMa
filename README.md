@@ -43,12 +43,12 @@ This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing I
 ## Experiment: 
 <br>
     <div align="center">
-      <img src="resource/table1.png" width="400"/>
+      <img src="resource/table1.png" width="800"/>
     </div>
 <be>
 <br>
     <div align="center">
-      <img src="resource/table2.png" width="400"/>
+      <img src="resource/table2.png" width="800"/>
     </div>
 <br>
 <br>
@@ -58,7 +58,7 @@ This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing I
 <br>
 <br>
     <div align="center">
-      <img src="resource/cap_result.png" width="700"/>
+      <img src="resource/cap_result.png" width="800"/>
     </div>
 <br>
     
