@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="resource/model.png" width="600"/>
+  <img src="resource/RSCaMa.png" width="600"/>
 </div>
 
 <div align="center">
