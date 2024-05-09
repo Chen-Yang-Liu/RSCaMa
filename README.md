@@ -21,24 +21,58 @@
 ## Share us a :star: if you're interested in this repo
 ## Welcome to our repository! 
 This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing Image Change Captioning with State Space Model". 
-## Composition of CaMa layers
-- **Spatial Difference-guided SSM (SD-SSM)**. To improve the model's perception of changes, we multiply the bi-temporal differencing features and the output of bidirectional SSMs to guide the model.
-    <br>
-    <div align="center">
-      <img src="resource/SD_SSM.png" width="400"/>
-    </div>
-    <br>
-- **Temporal Traveling SSM (TT-SSM)**. TT-SSM promotes bitemporal interactions in a token-wise cross-scanning manner.
-    <div align="center">
-      <img src="resource/TT_SSM.png" width="400"/>
-    </div>
 
-## Contributions
-- We introduce SSM into the RSICC, a multi-modal task, and propose RCaMa for efficient spatial-temporal modelling, providing a benchmark for Mamba-based RSICC.
 
-- We propose the CaMa layer consisting of SD-SSM and TT-SSM. SD-SSM uses differential features to enhance change perception, while TT-SSM promotes bitemporal interactions in a token-wise cross-scanning manner.
+### Installation and Dependencies
+```python
+git clone https://github.com/Chen-Yang-Liu/RSCaMa.git
+cd RSCaMa
+conda create -n RSCaMa_env python=3.9
+conda activate RSCaMa_env
+pip install -r requirements.txt
+```
 
-- The experiment shows the RSCaMa's SOTA performance and the potential of Mamba in the RSICC task. Besides, we systematically evaluate different language decoding schemes, providing valuable insight for future research.
+### Data Preparation
+- Download the LEVIR_CC dataset: [LEVIR-CC](https://github.com/Chen-Yang-Liu/RSICC) .
+- The data structure of LEVIR-CC is organized as follows:
+
+```
+├─/root/Data/LEVIR_CC/
+        ├─LevirCCcaptions.json
+        ├─images
+             ├─train
+             │  ├─A
+             │  ├─B
+             ├─val
+             │  ├─A
+             │  ├─B
+             ├─test
+             │  ├─A
+             │  ├─B
+```
+where folder A contains images of pre-phase, folder B contains images of post-phase.
+
+- Extract text files for the change descriptions of each image pair in LEVIR-CC:
+
+```
+python preprocess_data.py --input_captions_json /DATA_PATH/Levir-CC-dataset/LevirCCcaptions.json
+```
+
+!NOTE: When preparing the text token files, we suggest setting the word count threshold of LEVIR-CC to 5 and Dubai_CC to 0 for fair comparisons.
+### Training
+```
+python train_CC.py --data_folder /DATA_PATH/Levir-CC-dataset/images
+```
+
+!NOTE: If the program encounters the error: "'Meteor' object has no attribute 'lock'," we recommend installing it with `sudo apt install openjdk-11-jdk` to resolve this issue.
+
+
+### Evaluate
+```python
+python test.py --data_folder /DATA_PATH/Levir-CC-dataset/images --checkpoint xxxx.pth
+```
+Alternatively, you can obtain our pre-trained model from [Google Drive](https://drive.google.com/file/d/1phoO1BvPsRwIOIykkLm6acBpIocz9liz/view?usp=drive_link).
+
 
 ## Experiment: 
 <br>
@@ -54,11 +88,6 @@ This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing I
 <br>
     <div align="center">
       <img src="resource/table3.png" width="400"/>
-    </div>
-<br>
-<br>
-    <div align="center">
-      <img src="resource/cap_result.png" width="1200"/>
     </div>
 <br>
     
