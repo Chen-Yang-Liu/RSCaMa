@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="A-8 (2)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="A-8">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_850" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="A-8 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/share_folder_c/lcy/program/RSCaMa" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="B-8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="D-8">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/share_folder_c/lcy/program/RSCaMa" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="D-8 (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="E-8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="E-8 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/share_folder_c/lcy/program/RSCaMa" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="RSCaMa">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/program/RSCaMa" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

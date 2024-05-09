@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="12d17199-20c3-4cf5-b306-1780fa1be195" name="RSCaMa">
+        <fileTransfer rootFolder="/mnt/share_folder_c/lcy" accessType="SFTP" host="10.212.253.204" port="22" sshConfigId="0f0a97b1-bf69-4e20-8963-dd731dc8d274" sshConfig="E-8" />
+      </webServer>
+    </option>
+  </component>
+</project>
