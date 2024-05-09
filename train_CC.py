@@ -43,7 +43,7 @@ class Trainer(object):
                 LEVIRCCDataset(args.network,args.data_folder, args.list_path, 'train', args.token_folder, self.word_vocab, args.max_length, args.allow_unk),
                 batch_size=args.train_batchsize, shuffle=True, num_workers=args.workers, pin_memory=True)
             self.val_loader = data.DataLoader(
-                LEVIRCCDataset(args.network, args.data_folder, args.list_path, 'test', args.token_folder, self.word_vocab, args.max_length, args.allow_unk),
+                LEVIRCCDataset(args.network, args.data_folder, args.list_path, 'val', args.token_folder, self.word_vocab, args.max_length, args.allow_unk),
                 batch_size=args.val_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
 
         self.l_resizeA = torch.nn.Upsample(size = (256, 256), mode ='bilinear', align_corners = True)
@@ -272,8 +272,8 @@ if __name__ == '__main__':
     # Data parameters
     parser.add_argument('--sys', default='win', choices=('linux'), help='system')
     parser.add_argument('--data_folder', default='/mnt/share_folder_c/lcy/dataset/Levir-CC-dataset/images',help='folder with data files')
-    parser.add_argument('--list_path', default='./data/LEVIR_CC_v3/', help='path of the data lists')
-    parser.add_argument('--token_folder', default='./data/LEVIR_CC_v3/tokens/', help='folder with token files')
+    parser.add_argument('--list_path', default='./data/LEVIR_CC/', help='path of the data lists')
+    parser.add_argument('--token_folder', default='./data/LEVIR_CC/tokens/', help='folder with token files')
     parser.add_argument('--vocab_file', default='vocab', help='path of the data lists')
     parser.add_argument('--max_length', type=int, default=42, help='path of the data lists')
     parser.add_argument('--allow_unk', type=int, default=1, help='if unknown token is allowed')
