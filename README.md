@@ -71,7 +71,7 @@ python train_CC.py --data_folder /DATA_PATH/Levir-CC-dataset/images
 ```python
 python test.py --data_folder /DATA_PATH/Levir-CC-dataset/images --checkpoint xxxx.pth
 ```
-Alternatively, you can obtain our pre-trained model from [Google Drive](https://drive.google.com/file/d/1phoO1BvPsRwIOIykkLm6acBpIocz9liz/view?usp=drive_link).
+Alternatively, you can download our pretrained model here: [[Hugging face](https://huggingface.co/lcybuaa/RSCaMa/tree/main)].
 
 
 ## Experiment: 
