@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### Data Preparation
-- Download the LEVIR_CC dataset: [LEVIR-CC](https://github.com/Chen-Yang-Liu/RSICC) .
+- Download the LEVIR_CC dataset: [LEVIR-CC](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) .
 - The data structure of LEVIR-CC is organized as follows:
 
 ```
