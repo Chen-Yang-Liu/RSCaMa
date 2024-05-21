@@ -60,7 +60,7 @@ python preprocess_data.py --input_captions_json /DATA_PATH/Levir-CC-dataset/Levi
 
 !NOTE: When preparing the text token files, we suggest setting the word count threshold of LEVIR-CC to 5 and Dubai_CC to 0 for fair comparisons.
 ### NOTE 
-Please modify the source code of CLIP package, please modify CLIP.model.VisionTransformer.forward() like [[this](https://github.com/Chen-Yang-Liu/PromptCC/issues/3)].:
+Please modify the source code of CLIP package, please modify CLIP.model.VisionTransformer.forward() like [[this](https://github.com/Chen-Yang-Liu/PromptCC/issues/3)].
 
 ### Training
 ```
