@@ -237,12 +237,14 @@ class AttentiveEncoder(nn.Module):
         img_list = []
         N, L, D = img_sa1.shape
         for i in range(self.n_layers):
+            # SD-SSM:
             dif = img_sa2 - img_sa1
             img_sa1 = self.CaMalayer_list[i][0](inputs_embeds=img_sa1, inputs_embeds_2=dif).last_hidden_state
             img_sa2 = self.CaMalayer_list[i][1](inputs_embeds=img_sa2, inputs_embeds_2=dif).last_hidden_state
 
-            scan_mode = 'scan-allpixel'
-            if scan_mode == 'scan-allpixel':
+            # TT-SSM:
+            scan_mode = 'TT-SSM'
+            if scan_mode == 'TT-SSM':
                 img_sa1 = self.LN_norm(img_sa1)#+img_sa1_res
                 img_sa2 = self.LN_norm(img_sa2)#+img_sa2_res
                 img_sa1_res = img_sa1
