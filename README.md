@@ -9,8 +9,8 @@
 </div>
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2404.18895">
-    <span style="font-size: 20px; ">ArXiv</span>
+  <a href="https://ieeexplore.ieee.org/abstract/document/10537177">
+    <span style="font-size: 20px; ">Paper</span>
   </a>
 </div>
 
