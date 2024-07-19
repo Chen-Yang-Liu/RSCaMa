@@ -16,10 +16,7 @@
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
-**The code will be made public in the next few days.**
-
 ## Share us a :star: if you're interested in this repo
-## Welcome to our repository! 
 This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing Image Change Captioning with State Space Model". 
 
 
@@ -105,3 +102,7 @@ Alternatively, you can download our pretrained model here: [[Hugging face](https
       primaryClass={cs.CV}
 }
 ```
+## Our other work: 
+Our other Mamba-based work is as follows:
+- RSMamba: Remote Sensing Image Classification with State Space Model [[Paper](https://arxiv.org/abs/2403.19654)] [[Code](https://github.com/KyanChen/RSMamba)]
+- CDMamba: Remote Sensing Image Change Detection with Mamba [[Paper](https://arxiv.org/abs/2406.04207)] [[Code](https://github.com/zmoka-zht/CDMamba)]
