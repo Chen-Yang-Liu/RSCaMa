@@ -93,14 +93,17 @@ Alternatively, you can download our pretrained model here: [[Hugging face](https
     
 ## Citation: 
 ```
-@misc{liu2024rscama,
-      title={RSCaMa: Remote Sensing Image Change Captioning with State Space Model}, 
-      author={Chenyang Liu and Keyan Chen and Bowen Chen and Haotian Zhang and Zhengxia Zou and Zhenwei Shi},
-      year={2024},
-      eprint={2404.18895},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@ARTICLE{liu2024rscama,
+  author={Liu, Chenyang and Chen, Keyan and Chen, Bowen and Zhang, Haotian and Zou, Zhengxia and Shi, Zhenwei},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={RSCaMa: Remote Sensing Image Change Captioning With State Space Model}, 
+  year={2024},
+  volume={21},
+  number={},
+  pages={1-5},
+  keywords={Decoding;Visualization;Transformers;Task analysis;Solid modeling;Remote sensing;Feature extraction;Change captioning;Mamba;spatial difference-guided SSM;state space model (SSM);temporal traveling SSM},
+  doi={10.1109/LGRS.2024.3404604}}
+
 ```
 ## Our other work: 
 Our other Mamba-based work is as follows:
