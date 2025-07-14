@@ -1,24 +1,27 @@
 <div align="center">
-    <h2>
-        RSCaMa: Remote Sensing Image Change Captioning with State Space Model
-    </h2>
+ <h1>
+<!--   <img src="images/logo.png" alt="Logo" width="47" height="30" style="margin-right: 10px;"> -->
+  <a href="https://ieeexplore.ieee.org/document/10537177">RSCaMa: Remote Sensing Image Change Captioning with State Space Model</a>
+</h1>
 </div>
 <br>
+
 <div align="center">
   <img src="resource/RSCaMa.png" width="800"/>
 </div>
 
 <div align="center">
   <a href="https://ieeexplore.ieee.org/abstract/document/10537177">
-    <span style="font-size: 20px; ">Paper</span>
+    <span style="font-size: 20px; ">🏆️ESI Highly Cited Paper </span>
   </a>
 </div>
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
 ## Share us a :star: if you're interested in this repo
-This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing Image Change Captioning with State Space Model". 
+✅ This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing Image Change Captioning with State Space Model". 
 
+✅ 🏆️ESI Highly Cited Paper
 
 ### Installation and Dependencies
 ```python
