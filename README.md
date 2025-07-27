@@ -21,7 +21,10 @@
 ## Share us a :star: if you're interested in this repo
 ✅ This repository contains the PyTorch implementation of "RSCaMa: Remote Sensing Image Change Captioning with State Space Model". 
 
-✅ 🏆️ESI Highly Cited Paper
+✅ 🏆️**ESI Highly Cited Paper**
+
+## News:
+🔥**Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey**: [[Paper](https://arxiv.org/abs/2412.02573)] [[Github](https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLMs)]
 
 ### Installation and Dependencies
 ```python
