@@ -34,6 +34,7 @@ conda create -n RSCaMa_env python=3.9
 conda activate RSCaMa_env
 pip install -r requirements.txt
 ```
+Note: Please refer to https://github.com/hustvl/Vim or https://blog.csdn.net/weixin_45667052/article/details/136311600 when installing mamba.
 
 ### Data Preparation
 - Download the LEVIR_CC dataset: [LEVIR-CC](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) .
